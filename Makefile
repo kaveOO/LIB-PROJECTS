@@ -35,7 +35,6 @@ SOURCES = 				\
 	convert/ft_split.c 	\
 	convert/ft_itoa.c 	\
 	convert/ft_atoi.c 	\
-	gnl/get_next_line_utils.c \
 	gnl/get_next_line.c \
 	printf/ft_printf_hex.c \
 	printf/ft_printf_ptr.c \

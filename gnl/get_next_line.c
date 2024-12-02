@@ -6,11 +6,11 @@
 /*   By: kaveo <kaveo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/01 01:53:11 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/02 16:41:53 by kaveo            ###   ########.fr       */
+/*   Updated: 2024/12/02 16:54:37 by kaveo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "get_next_line.h"
+#include "../libft.h"
 
 char	*fill_line_buffer(int fd, char *left_c)
 {
@@ -107,24 +107,3 @@ char	*get_next_line(int fd)
 	return (line);
 }
 
-char	*ft_strchr(char *s, int c)
-{
-	unsigned int	i;
-	char			cc;
-
-	cc = (char) c;
-	i = 0;
-	while (s[i])
-	{
-		if (s[i] == cc)
-		{
-			return ((char *) &s[i]);
-		}
-		i++;
-	}
-	if (s[i] == cc)
-	{
-		return ((char *)&s[i]);
-	}
-	return (NULL);
-}
