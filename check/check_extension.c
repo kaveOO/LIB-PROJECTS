@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/11/23 10:10:38 by albillie          #+#    #+#             */
-/*   Updated: 2024/11/23 10:13:12 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/05 04:11:55 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -17,9 +17,9 @@ bool	check_extension(char *filename, char *extension)
 	const char	*dot;
 
 	if (!filename || !extension)
-		return false;
+		return (false);
 	dot = strrchr(filename, '.');
 	if (!dot)
-		return false;
-	return (strcmp(dot + 1, extension)) == 0;
+		return (false);
+	return ((strcmp(dot + 1, extension)) == 0);
 }

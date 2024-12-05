@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaveo <kaveo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/02 16:47:42 by kaveo            ###   ########.fr       */
+/*   Updated: 2024/12/05 04:11:07 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,9 +19,9 @@
 # include <stdio.h>
 # include <unistd.h>
 # include <stdlib.h>
-# include <fcntl.h>
 # include <errno.h>
 # include <stdbool.h>
+# include <fcntl.h>
 
 // * LIBFT PART
 
@@ -64,21 +64,11 @@ int		ft_printf(const char *str, ...);
 bool	check_extension(char *filename, char *extension);
 bool	check_if_opened(char *filename);
 
-#endif
-
 // * GET NEXT LINE PART
-
-#ifndef GET_NEXT_LINE_H
-# define GET_NEXT_LINE_H
 
 # ifndef BUFFER_SIZE
 #  define BUFFER_SIZE 42
 # endif
-
-# include <stdlib.h>
-# include <unistd.h>
-# include <fcntl.h>
-# include <stdio.h>
 
 char	*get_next_line(int fd);
 void	fill_str(char *res, char *s1, char *s2);
