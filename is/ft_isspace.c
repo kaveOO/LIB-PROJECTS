@@ -6,13 +6,13 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/06 05:06:47 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/06 05:14:02 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/06 05:16:04 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-bool	ft_isspace(char c)
+bool	ft_isspace(int c)
 {
 	if ((c >= 9 && c <= 13) || c == 32)
 	{

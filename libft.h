@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/05 04:11:07 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/06 05:16:10 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -59,6 +59,7 @@ int		ft_isascii(int c);
 int		ft_toupper(int c);
 int		ft_tolower(int c);
 int		ft_isalnum(int c);
+bool	ft_isspace(int c);
 char	*get_next_line(int fd);
 int		ft_printf(const char *str, ...);
 bool	check_extension(char *filename, char *extension);
