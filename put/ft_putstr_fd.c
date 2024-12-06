@@ -6,11 +6,11 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/20 07:40:05 by albillie          #+#    #+#             */
-/*   Updated: 2024/11/19 01:41:20 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/06 05:11:30 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	ft_putstr_fd(char *s, int fd)
 {

@@ -3,14 +3,14 @@
 /*                                                        :::      ::::::::   */
 /*   ft_fillstr.c                                       :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: kaveo <kaveo@student.42.fr>                +#+  +:+       +#+        */
+/*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/02 16:52:16 by kaveo             #+#    #+#             */
-/*   Updated: 2024/12/02 16:52:48 by kaveo            ###   ########.fr       */
+/*   Updated: 2024/12/06 05:11:30 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 void	fill_str(char *res, char *s1, char *s2)
 {

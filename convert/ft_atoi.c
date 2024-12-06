@@ -6,11 +6,11 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 21:27:55 by albillie          #+#    #+#             */
-/*   Updated: 2024/11/18 07:46:45 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/06 05:11:31 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 int	ft_atoi(const char *nptr)
 {

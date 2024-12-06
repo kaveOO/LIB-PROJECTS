@@ -6,11 +6,11 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/22 23:41:10 by albillie          #+#    #+#             */
-/*   Updated: 2024/11/18 07:46:45 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/06 05:11:30 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include "../libft.h"
+#include "libft.h"
 
 /* void	ft_striteri_test(unsigned int i, char *c)
 {

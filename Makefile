@@ -47,7 +47,8 @@ SOURCES = 				\
 OBJECTS = $(SOURCES:.c=.o)
 
 CC = gcc
-CFLAGS = -Wall -Wextra -Werror
+INCLUDE = -I .
+CFLAGS = -Wall -Wextra -Werror $(INCLUDE)
 
 all: $(NAME)
 
