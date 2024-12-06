@@ -21,6 +21,7 @@ SOURCES = 				\
 	is/ft_isalpha.c 	\
 	is/ft_isascii.c 	\
 	is/ft_isalnum.c 	\
+	is/ft_isspace.c		\
 	mem/ft_memset.c 	\
 	mem/ft_bzero.c 		\
 	mem/ft_memcpy.c		\
