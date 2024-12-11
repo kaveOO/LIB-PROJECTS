@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/12/11 02:20:35 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/11 04:58:47 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/11 05:02:37 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -15,7 +15,7 @@
 long	ft_atol(const char *str)
 {
 	long	result;
-	long		sign;
+	long	sign;
 	int		i;
 
 	result = 0;
