@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/06 05:16:10 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/11 02:29:18 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -64,6 +64,8 @@ char	*get_next_line(int fd);
 int		ft_printf(const char *str, ...);
 bool	check_extension(char *filename, char *extension);
 bool	check_if_opened(char *filename);
+long	ft_atol(const char *str);
+
 
 // * GET NEXT LINE PART
 
