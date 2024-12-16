@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/11 05:02:51 by albillie         ###   ########.fr       */
+/*   Updated: 2024/12/16 15:09:29 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -24,6 +24,12 @@
 # include <fcntl.h>
 
 // * LIBFT PART
+
+typedef struct s_list
+{
+	void			*content;
+	struct s_list	*next;
+}					t_list;
 
 size_t	ft_strlen(const char *s);
 void	*ft_memset(void *s, int c, size_t n);
@@ -65,6 +71,14 @@ int		ft_printf(const char *str, ...);
 bool	check_extension(char *filename, char *extension);
 bool	check_if_opened(char *filename);
 long	ft_atol(const char *str);
+void	ft_lstadd_back(t_list **lst, t_list *new);
+void	ft_lstadd_front(t_list **lst, t_list *new);
+void	ft_lstclear(t_list **lst, void (*del)(void*));
+void	ft_lstdelone(t_list *lst, void (*del) (void*));
+void	ft_lstiter(t_list *lst, void (*f)(void *));
+t_list	*ft_lstlast(t_list *lst);
+t_list	*ft_lstnew(void *content);
+int		ft_lstsize(t_list *lst);
 
 // * GET NEXT LINE PART
 
