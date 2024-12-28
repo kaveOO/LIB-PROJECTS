@@ -52,6 +52,7 @@ SOURCES = 							\
 	lists/ft_lstdelone_bonus.c		\
 	lists/ft_lstiter_bonus.c		\
 	lists/ft_lstclear_bonus.c		\
+	ptr/ft_swap.c					\
 
 
 OBJECTS = $(SOURCES:.c=.o)
