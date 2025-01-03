@@ -43,7 +43,6 @@ SOURCES = 							\
 	printf/ft_printf_utils.c 		\
 	printf/ft_printf.c 				\
 	check/check_extension.c 		\
-	check/check_if_opened.c			\
 	lists/ft_lstnew_bonus.c			\
 	lists/ft_lstadd_front_bonus.c	\
 	lists/ft_lstsize_bonus.c		\

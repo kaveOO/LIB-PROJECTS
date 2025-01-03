@@ -3,10 +3,10 @@
 /*                                                        :::      ::::::::   */
 /*   libft.h                                            :+:      :+:    :+:   */
 /*                                                    +:+ +:+         +:+     */
-/*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
+/*   By: kaveo <kaveo@student.42.fr>                +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2024/12/28 06:17:16 by albillie         ###   ########.fr       */
+/*   Updated: 2025/01/03 03:01:38 by kaveo            ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -69,7 +69,6 @@ bool	ft_isspace(int c);
 char	*get_next_line(int fd);
 int		ft_printf(const char *str, ...);
 bool	check_extension(char *filename, char *extension);
-bool	check_if_opened(char *filename);
 long	ft_atol(const char *str);
 void	ft_lstadd_back(t_list **lst, t_list *new);
 void	ft_lstadd_front(t_list **lst, t_list *new);
