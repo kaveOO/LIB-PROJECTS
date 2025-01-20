@@ -6,7 +6,7 @@
 /*   By: albillie <albillie@student.42.fr>          +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2024/10/14 23:53:30 by albillie          #+#    #+#             */
-/*   Updated: 2025/01/03 09:15:54 by albillie         ###   ########.fr       */
+/*   Updated: 2025/01/20 03:58:13 by albillie         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -80,6 +80,8 @@ t_list	*ft_lstlast(t_list *lst);
 t_list	*ft_lstnew(void *content);
 int		ft_lstsize(t_list *lst);
 void	ft_swap(int *a, int *b);
+void	ft_free_char_tab(char **tab);
+void	ft_free_int_tab(int **tab, int size);
 
 // * GET NEXT LINE PART
 

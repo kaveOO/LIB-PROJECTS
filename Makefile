@@ -56,6 +56,8 @@ SOURCES = 							\
 	lists/ft_lstiter_bonus.c		\
 	lists/ft_lstclear_bonus.c		\
 	ptr/ft_swap.c					\
+	free/free_char_tab.c			\
+	free/free_int_tab.c				\
 
 
 OBJECTS = $(SOURCES:.c=.o)
